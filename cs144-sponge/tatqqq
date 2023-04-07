@@ -1,0 +1,44 @@
+[33m213ecac[m[33m ([m[1;32mmaster[m[33m)[m master@{0}: commit: revert files to take out debugging junk, styled tcp receiver.cc
+[33m1a74e2c[m master@{1}: commit: reset test file
+[33mfe8e650[m master@{2}: commit: fixed byte stream peek output math, now pass all tests
+[33ma63ac3b[m master@{3}: commit: push to reassembler at index abs_seqno - not header.syn and exit early if we haven't gotten a syn -> 3 failed tests
+[33m5e42c6b[m master@{4}: commit: changed checkpoint to be abs_seqno + payload size (instead of just abs_seqno), still not sure if we should push to stream at abs_seqno or abs_seqno - 1 (bc negative at 0)
+[33mbed8ae8[m master@{5}: commit: removed wrong early returns, tweaked seqno/abs seqno/stream indices the other way
+[33m080401c[m master@{6}: commit: tweaked one-off errors of seqno/abs seqno/stream indices calculations -> faills 6 tests but no longer fails in the middle of that long reassemble stream one
+[33m61d96e0[m master@{7}: commit: implemented functions in tcp_receiver.cc, 4 tests still failed: stream not closed at the right time and reassembler not rwriting the correct data to stream
+[33m40407b5[m master@{8}: commit: added const to read-only variables in stream_reassembler
+[33m973477e[m master@{9}: commit: unwrap passes all tests but still messy
+[33m01d466d[m master@{10}: commit: passed wrap, confused about unwrap
+[33mf83f440[m master@{11}: merge upstream/lab2-startercode: Merge made by the 'recursive' strategy.
+[33m2175041[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m master@{12}: pull: Merge made by the 'recursive' strategy.
+[33maee97d0[m master@{13}: commit (amend): lab1: style, comments, writeup
+[33mb3379f3[m master@{14}: commit: style, comments, writeup
+[33me826efd[m master@{15}: reset: moving to e826efd60bf1bd0c0fda821d53d0cad468131724
+[33medf8804[m[33m ([m[1;32mtest0[m[33m)[m master@{16}: commit: decomp and clean up, fail 2 tests
+[33me826efd[m master@{17}: commit: all tests passed: fixed aggregation rules for overlapping chunks, keep track of first unassembled instead of first_unread, squashed other misc bugs
+[33m7363aeb[m master@{18}: commit: pass 10/16 tests. changed order of adding things to unassembled / bytestream / setting eof
+[33m8ca887a[m master@{19}: commit: wrote prelim logic for aggregating / inserting new chunk into unassembled
+[33mfd66f35[m master@{20}: commit (amend): switch to using a set of (data, index) structs instead of vector of bytes, made comparison function work with inline operator < within struct declaration. Still confused about why the other comparison function approaches didn't work (functor, lambda) and how the set insert function works with iterators
+[33m4ca05c0[m master@{21}: commit: switch to using a set instead of vector of bytes
+[33mb7dc994[m master@{22}: commit: first attempt with ring buffer for vector of unassembled bytes
+[33mbcf5126[m master@{23}: merge upstream/lab1-startercode: Merge made by the 'recursive' strategy.
+[33mf630e03[m master@{24}: commit: final tweaks and lab writeup
+[33m0f5ad8a[m master@{25}: commit: added header comment, references, removed debugging comments
+[33mb8dea97[m master@{26}: commit: fixed peek to wrap only when data begin + len > max capacity, figured out to compile my_test with -g flag for debugging with gdb
+[33m5f74c9b[m master@{27}: commit: wrote a test file, can run but doesn't work with gdb for some reasons...
+[33m43dd331[m master@{28}: commit: finished implementing all functions, 3 tests failed: t_byte_stream _one/two_write, _capacity
+[33md6e9b43[m master@{29}: commit: implemented functions: read/write, bytes read/written, buffer size, buffer empty, remaining capacity
+[33m460a8c2[m master@{30}: commit: using vector again bc can't init array in header file before knowing size. write/peek as much as possible, doesn't throw error if request more bytes than currently in buffer
+[33m4de4f4e[m master@{31}: commit: switching to use array of chars and size_t dataBegin
+[33m3ba842d[m master@{32}: commit: dataBegin as an iterator is causing a lot of issues, gonna try using it as an index
+[33m172efee[m master@{33}: commit: implemented peek and pop
+[33md654166[m master@{34}: commit: use vector instead of char array
+[33m8742708[m master@{35}: commit: trying to implement a circular buffer with a char array. getting compile errors
+[33mfbaad21[m master@{36}: commit: pass webget test. removed all print statements other than read()
+[33m8e147ea[m master@{37}: commit: added another \r\n after connection close which fixed timeout issue. cleaned up debugging statements
+[33m4ce784f[m master@{38}: commit: try hardcoding the write requests, not it
+[33m9e46209[m master@{39}: commit: added carriage returns, moved connection close up to finish writing before start reading, still timeout
+[33m468524d[m master@{40}: commit: added Connection: close line
+[33mdfc32aa[m master@{41}: commit: replace bind w/ connect, while eof to while not eof, sock.read still not printing
+[33meba6a36[m master@{42}: commit: fetched webpage, got code. getURL socket read not printing
+[33m31d95c3[m[33m ([m[1;31mupstream/master[m[33m)[m master@{43}: clone: from https://github.com/hahntrn/cs144-lab0-sponge.git

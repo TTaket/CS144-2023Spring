@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 6497de3ab7c34a85d64840b140d3e7255c9c719b Ha Tran <hahntrn@stanford.edu> 1602786339 -0700	branch: Created from 6497de3ab7c34a85d64840b140d3e7255c9c719b
+6497de3ab7c34a85d64840b140d3e7255c9c719b 89dac7b2bd699c1b68f8533704a98f21f17ded8b Ha Tran <hahntrn@stanford.edu> 1602795117 -0700	commit: pass the syn/fin stuff. n bytes in flight -> next seqno - last ackno. ERROR: sending segments when shouldn't. if exit early when length in sequence space == 0 -> infinite loops / timeouts.
+89dac7b2bd699c1b68f8533704a98f21f17ded8b 99a846a462ae08b0fcec0975d7a81aba00f0e910 Ha Tran <hahntrn@stanford.edu> 1602807710 -0700	commit: passing all but send_close test
+99a846a462ae08b0fcec0975d7a81aba00f0e910 acf5266799760073001e83d28290ff625348d0bd Ha Tran <hahntrn@stanford.edu> 1602809310 -0700	commit: passed all tests
+acf5266799760073001e83d28290ff625348d0bd 2669b8d4d810d1fefc137d27f8a14d9746ffee97 Ha Tran <hahntrn@stanford.edu> 1602819746 -0700	commit: reformatted some stuff, removed comments and redundant state variables
+2669b8d4d810d1fefc137d27f8a14d9746ffee97 2b9db156a4ea8b194c647fc58bd09385295e0dee Ha Tran <hahntrn@stanford.edu> 1603343906 -0700	commit: ?

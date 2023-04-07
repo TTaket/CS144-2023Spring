@@ -1,0 +1,121 @@
+0000000000000000000000000000000000000000 31d95c3be9a36ceeafb7e52f1c3a0026d28aa34c cs144_student <cs144@cs144vm.(none)> 1600376335 -0700	clone: from https://github.com/hahntrn/cs144-lab0-sponge.git
+31d95c3be9a36ceeafb7e52f1c3a0026d28aa34c eba6a3651b647ba979b1ebea65c114dd63c5f291 Ha Tran <hahntrn@stanford.edu> 1600383123 -0700	commit: fetched webpage, got code. getURL socket read not printing
+eba6a3651b647ba979b1ebea65c114dd63c5f291 dfc32aa9e1bb6f232b98bcaca00e7a391c57dfb5 Ha Tran <hahntrn@stanford.edu> 1600383420 -0700	commit: replace bind w/ connect, while eof to while not eof, sock.read still not printing
+dfc32aa9e1bb6f232b98bcaca00e7a391c57dfb5 468524d65b848456f6d8e106935bf7a2ef58ecf3 Ha Tran <hahntrn@stanford.edu> 1600383640 -0700	commit: added Connection: close line
+468524d65b848456f6d8e106935bf7a2ef58ecf3 9e4620924c735a862621c5004a587c069908afb6 Ha Tran <hahntrn@stanford.edu> 1600396825 -0700	commit: added carriage returns, moved connection close up to finish writing before start reading, still timeout
+9e4620924c735a862621c5004a587c069908afb6 4ce784f91ae4889f3f6f2a3e01f57dc3dc024bfa Ha Tran <hahntrn@stanford.edu> 1600397596 -0700	commit: try hardcoding the write requests, not it
+4ce784f91ae4889f3f6f2a3e01f57dc3dc024bfa 8e147eaebe39c6656ddde29dd371c680fe04b4ed Ha Tran <hahntrn@stanford.edu> 1600461877 -0700	commit: added another \r\n after connection close which fixed timeout issue. cleaned up debugging statements
+8e147eaebe39c6656ddde29dd371c680fe04b4ed fbaad21531bc602ea5250d97e101645670817e4b Ha Tran <hahntrn@stanford.edu> 1600468633 -0700	commit: pass webget test. removed all print statements other than read()
+fbaad21531bc602ea5250d97e101645670817e4b 8742708c96e3fb067fe8deff9288cd69d000c464 Ha Tran <hahntrn@stanford.edu> 1600486512 -0700	commit: trying to implement a circular buffer with a char array. getting compile errors
+8742708c96e3fb067fe8deff9288cd69d000c464 d6541663ef29b1b373f6044b759a7b0e765c2b14 Ha Tran <hahntrn@stanford.edu> 1600488478 -0700	commit: use vector instead of char array
+d6541663ef29b1b373f6044b759a7b0e765c2b14 172efee9d623567a69eb98ab7770e2896d9d9b28 Ha Tran <hahntrn@stanford.edu> 1600577341 -0700	commit: implemented peek and pop
+172efee9d623567a69eb98ab7770e2896d9d9b28 3ba842dfc13d5057a254bee723f8c09e58b3c3b6 Ha Tran <hahntrn@stanford.edu> 1600579950 -0700	commit: dataBegin as an iterator is causing a lot of issues, gonna try using it as an index
+3ba842dfc13d5057a254bee723f8c09e58b3c3b6 4de4f4e79ce9a7ad0d9cbcd4904d71e0a3d9e044 Ha Tran <hahntrn@stanford.edu> 1600638805 -0700	commit: switching to use array of chars and size_t dataBegin
+4de4f4e79ce9a7ad0d9cbcd4904d71e0a3d9e044 460a8c292f49f414d907560a13fb127b5c918fb0 Ha Tran <hahntrn@stanford.edu> 1600640681 -0700	commit: using vector again bc can't init array in header file before knowing size. write/peek as much as possible, doesn't throw error if request more bytes than currently in buffer
+460a8c292f49f414d907560a13fb127b5c918fb0 d6e9b4362e68a13a4adf80aa140fef2906d7297d Ha Tran <hahntrn@stanford.edu> 1600642586 -0700	commit: implemented functions: read/write, bytes read/written, buffer size, buffer empty, remaining capacity
+d6e9b4362e68a13a4adf80aa140fef2906d7297d 43dd331a941903282487f00a70cc51e0fb98a225 Ha Tran <hahntrn@stanford.edu> 1600643232 -0700	commit: finished implementing all functions, 3 tests failed: t_byte_stream _one/two_write, _capacity
+43dd331a941903282487f00a70cc51e0fb98a225 5f74c9be3bdf43603bc62d214b4acb42005931a1 Ha Tran <hahntrn@stanford.edu> 1600645252 -0700	commit: wrote a test file, can run but doesn't work with gdb for some reasons...
+5f74c9be3bdf43603bc62d214b4acb42005931a1 b8dea972fc19247f635850a78e762a53867f27f8 Ha Tran <hahntrn@stanford.edu> 1600721134 -0700	commit: fixed peek to wrap only when data begin + len > max capacity, figured out to compile my_test with -g flag for debugging with gdb
+b8dea972fc19247f635850a78e762a53867f27f8 0f5ad8ab463444c8c45af626ecadafeacf12654f Ha Tran <hahntrn@stanford.edu> 1600721311 -0700	commit: added header comment, references, removed debugging comments
+0f5ad8ab463444c8c45af626ecadafeacf12654f f630e039022d746bf4811b2b09250f46caf56e0a Ha Tran <hahntrn@stanford.edu> 1600750484 -0700	commit: final tweaks and lab writeup
+f630e039022d746bf4811b2b09250f46caf56e0a f630e039022d746bf4811b2b09250f46caf56e0a Ha Tran <hahntrn@stanford.edu> 1600890305 -0700	checkout: moving from master to master
+f630e039022d746bf4811b2b09250f46caf56e0a bcf5126c182095353fbd441155bc8dc4d3c14477 Ha Tran <hahntrn@stanford.edu> 1600890360 -0700	merge upstream/lab1-startercode: Merge made by the 'recursive' strategy.
+bcf5126c182095353fbd441155bc8dc4d3c14477 b7dc994e131af19ee573956e84255caa4c1b05f9 Ha Tran <hahntrn@stanford.edu> 1601050849 -0700	commit: first attempt with ring buffer for vector of unassembled bytes
+b7dc994e131af19ee573956e84255caa4c1b05f9 4ca05c0c965e78b3470a6d0fd5bef6785790c156 Ha Tran <hahntrn@stanford.edu> 1601076245 -0700	commit: switch to using a set instead of vector of bytes
+4ca05c0c965e78b3470a6d0fd5bef6785790c156 fd66f35ef305d7b6e14888ed2bf4b173f3c0c6e9 Ha Tran <hahntrn@stanford.edu> 1601076298 -0700	commit (amend): switch to using a set of (data, index) structs instead of vector of bytes, made comparison function work with inline operator < within struct declaration. Still confused about why the other comparison function approaches didn't work (functor, lambda) and how the set insert function works with iterators
+fd66f35ef305d7b6e14888ed2bf4b173f3c0c6e9 8ca887a5b840c496be24d69647d61fe77b224415 Ha Tran <hahntrn@stanford.edu> 1601080440 -0700	commit: wrote prelim logic for aggregating / inserting new chunk into unassembled
+8ca887a5b840c496be24d69647d61fe77b224415 7363aeb42cd754f3bda65ef64263dbb64629ec02 Ha Tran <hahntrn@stanford.edu> 1601083926 -0700	commit: pass 10/16 tests. changed order of adding things to unassembled / bytestream / setting eof
+7363aeb42cd754f3bda65ef64263dbb64629ec02 e826efd60bf1bd0c0fda821d53d0cad468131724 Ha Tran <hahntrn@stanford.edu> 1601152367 -0700	commit: all tests passed: fixed aggregation rules for overlapping chunks, keep track of first unassembled instead of first_unread, squashed other misc bugs
+e826efd60bf1bd0c0fda821d53d0cad468131724 edf8804cd53f0415bf0847ed678306c742abf1f8 Ha Tran <hahntrn@stanford.edu> 1601154039 -0700	commit: decomp and clean up, fail 2 tests
+edf8804cd53f0415bf0847ed678306c742abf1f8 edf8804cd53f0415bf0847ed678306c742abf1f8 Ha Tran <hahntrn@stanford.edu> 1601154696 -0700	reset: moving to HEAD
+edf8804cd53f0415bf0847ed678306c742abf1f8 edf8804cd53f0415bf0847ed678306c742abf1f8 Ha Tran <hahntrn@stanford.edu> 1601154722 -0700	reset: moving to HEAD
+edf8804cd53f0415bf0847ed678306c742abf1f8 edf8804cd53f0415bf0847ed678306c742abf1f8 Ha Tran <hahntrn@stanford.edu> 1601156265 -0700	checkout: moving from master to test0
+edf8804cd53f0415bf0847ed678306c742abf1f8 edf8804cd53f0415bf0847ed678306c742abf1f8 Ha Tran <hahntrn@stanford.edu> 1601156279 -0700	checkout: moving from test0 to master
+edf8804cd53f0415bf0847ed678306c742abf1f8 edf8804cd53f0415bf0847ed678306c742abf1f8 Ha Tran <hahntrn@stanford.edu> 1601156336 -0700	reset: moving to HEAD
+edf8804cd53f0415bf0847ed678306c742abf1f8 e826efd60bf1bd0c0fda821d53d0cad468131724 Ha Tran <hahntrn@stanford.edu> 1601156355 -0700	reset: moving to e826efd60bf1bd0c0fda821d53d0cad468131724
+e826efd60bf1bd0c0fda821d53d0cad468131724 b3379f3fd4c622ae3d92777e5d96069ffacc16ad Ha Tran <hahntrn@stanford.edu> 1601180830 -0700	commit: style, comments, writeup
+b3379f3fd4c622ae3d92777e5d96069ffacc16ad aee97d050349cd73ebe16609f85b4342ff95a494 Ha Tran <hahntrn@stanford.edu> 1601180913 -0700	commit (amend): lab1: style, comments, writeup
+aee97d050349cd73ebe16609f85b4342ff95a494 217504144efb22f2205a44487c4bfadf3a518f77 Ha Tran <hahntrn@stanford.edu> 1601180984 -0700	pull: Merge made by the 'recursive' strategy.
+217504144efb22f2205a44487c4bfadf3a518f77 f83f4404c3eb750a5592b41575b894f00a62e98b Ha Tran <hahntrn@stanford.edu> 1601515402 -0700	merge upstream/lab2-startercode: Merge made by the 'recursive' strategy.
+f83f4404c3eb750a5592b41575b894f00a62e98b 01d466d75b98bb5d779ee337e6e0c00a1e734df1 Ha Tran <hahntrn@stanford.edu> 1601927012 -0700	commit: passed wrap, confused about unwrap
+01d466d75b98bb5d779ee337e6e0c00a1e734df1 973477ec827e1841cfee3f0529d67192b015e03a Ha Tran <hahntrn@stanford.edu> 1601930149 -0700	commit: unwrap passes all tests but still messy
+973477ec827e1841cfee3f0529d67192b015e03a 40407b52f6f3d743e220663846faaa5054c31223 Ha Tran <hahntrn@stanford.edu> 1601932866 -0700	commit: added const to read-only variables in stream_reassembler
+40407b52f6f3d743e220663846faaa5054c31223 61d96e0188961f735c422bc84e369acce1cbf58e Ha Tran <hahntrn@stanford.edu> 1602005194 -0700	commit: implemented functions in tcp_receiver.cc, 4 tests still failed: stream not closed at the right time and reassembler not rwriting the correct data to stream
+61d96e0188961f735c422bc84e369acce1cbf58e 080401c42b47289e88696e1ccd145f23f6a815cd Ha Tran <hahntrn@stanford.edu> 1602006395 -0700	commit: tweaked one-off errors of seqno/abs seqno/stream indices calculations -> faills 6 tests but no longer fails in the middle of that long reassemble stream one
+080401c42b47289e88696e1ccd145f23f6a815cd bed8ae8f8cf77ae3aafdddf0d508c16a85ce1eb8 Ha Tran <hahntrn@stanford.edu> 1602006764 -0700	commit: removed wrong early returns, tweaked seqno/abs seqno/stream indices the other way
+bed8ae8f8cf77ae3aafdddf0d508c16a85ce1eb8 5e42c6b62894699d1dcfd06dbb3a315aa4b67642 Ha Tran <hahntrn@stanford.edu> 1602007315 -0700	commit: changed checkpoint to be abs_seqno + payload size (instead of just abs_seqno), still not sure if we should push to stream at abs_seqno or abs_seqno - 1 (bc negative at 0)
+5e42c6b62894699d1dcfd06dbb3a315aa4b67642 a63ac3b2b52727a32e38d7f0c805baf5541c1bb4 Ha Tran <hahntrn@stanford.edu> 1602011157 -0700	commit: push to reassembler at index abs_seqno - not header.syn and exit early if we haven't gotten a syn -> 3 failed tests
+a63ac3b2b52727a32e38d7f0c805baf5541c1bb4 fe8e65095b17e7460a5bf73549e3aef265f5b868 Ha Tran <hahntrn@stanford.edu> 1602036856 -0700	commit: fixed byte stream peek output math, now pass all tests
+fe8e65095b17e7460a5bf73549e3aef265f5b868 fe8e65095b17e7460a5bf73549e3aef265f5b868 Ha Tran <hahntrn@stanford.edu> 1602037004 -0700	reset: moving to HEAD
+fe8e65095b17e7460a5bf73549e3aef265f5b868 1a74e2c1f9224826800b5d02f4285533631c37b2 Ha Tran <hahntrn@stanford.edu> 1602037085 -0700	commit: reset test file
+1a74e2c1f9224826800b5d02f4285533631c37b2 213ecac18b1f1cd29f8925e6b72bf40b6c65a67d Ha Tran <hahntrn@stanford.edu> 1602037680 -0700	commit: revert files to take out debugging junk, styled tcp receiver.cc
+213ecac18b1f1cd29f8925e6b72bf40b6c65a67d 213ecac18b1f1cd29f8925e6b72bf40b6c65a67d Ha Tran <hahntrn@stanford.edu> 1602086153 -0700	reset: moving to HEAD
+213ecac18b1f1cd29f8925e6b72bf40b6c65a67d 213ecac18b1f1cd29f8925e6b72bf40b6c65a67d Ha Tran <hahntrn@stanford.edu> 1602086163 -0700	checkout: moving from master to 213ecac18b1f1cd29f8925e6b72bf40b6c65a67d
+213ecac18b1f1cd29f8925e6b72bf40b6c65a67d fe8e65095b17e7460a5bf73549e3aef265f5b868 Ha Tran <hahntrn@stanford.edu> 1602086229 -0700	reset: moving to fe8e65095b17e7460a5bf73549e3aef265f5b868
+fe8e65095b17e7460a5bf73549e3aef265f5b868 17780967c5830f8496362a6ca1488bcc75feac20 Ha Tran <hahntrn@stanford.edu> 1602086630 -0700	revert: Revert "fixed byte stream peek output math, now pass all tests"
+17780967c5830f8496362a6ca1488bcc75feac20 fe8e65095b17e7460a5bf73549e3aef265f5b868 Ha Tran <hahntrn@stanford.edu> 1602086936 -0700	reset: moving to fe8e65095b17e7460a5bf73549e3aef265f5b868
+fe8e65095b17e7460a5bf73549e3aef265f5b868 0ddefd5ce5eef425102d9bc347373998c33357f6 Ha Tran <hahntrn@stanford.edu> 1602087366 -0700	commit: removed set_error in byte stream to pass recv close test
+0ddefd5ce5eef425102d9bc347373998c33357f6 0ddefd5ce5eef425102d9bc347373998c33357f6 Ha Tran <hahntrn@stanford.edu> 1602087528 -0700	checkout: moving from 0ddefd5ce5eef425102d9bc347373998c33357f6 to reset-changes
+0ddefd5ce5eef425102d9bc347373998c33357f6 118e9b5f5c910e5f6a5cc4106f84c0ceeda3ee8a Ha Tran <hahntrn@stanford.edu> 1602090109 -0700	commit: writeup lab2, style tweaks, removed fin flag and checkpoint from private variables in tcp recv
+118e9b5f5c910e5f6a5cc4106f84c0ceeda3ee8a 58b374bdf26cd2d23dae3c93e538cf88a11ede31 Ha Tran <hahntrn@stanford.edu> 1602090124 -0700	commit: make format
+58b374bdf26cd2d23dae3c93e538cf88a11ede31 213ecac18b1f1cd29f8925e6b72bf40b6c65a67d Ha Tran <hahntrn@stanford.edu> 1602178641 -0700	checkout: moving from reset-changes to master
+213ecac18b1f1cd29f8925e6b72bf40b6c65a67d c824b522d8367ab3adacdcfcecf05719bca0e970 Ha Tran <hahntrn@stanford.edu> 1602178900 -0700	commit (merge): fixed merge conflicts
+c824b522d8367ab3adacdcfcecf05719bca0e970 8dd4b802b11616224bfd7f25033d5079f03667d0 Ha Tran <hahntrn@stanford.edu> 1602179047 -0700	merge upstream/lab3-startercode: Merge made by the 'recursive' strategy.
+8dd4b802b11616224bfd7f25033d5079f03667d0 6497de3ab7c34a85d64840b140d3e7255c9c719b Ha Tran <hahntrn@stanford.edu> 1602721353 -0700	commit: builds, SYN/FIN not passing send_connect test even though header accurate. using a struct for Timer
+6497de3ab7c34a85d64840b140d3e7255c9c719b b38415c4ade15c9ca778996c8eccc5708d394b13 Ha Tran <hahntrn@stanford.edu> 1602725024 -0700	commit: more conditions on stream conditions
+b38415c4ade15c9ca778996c8eccc5708d394b13 8dc3da8428316a28be58a2580fce90d73451aed5 Ha Tran <hahntrn@stanford.edu> 1602725046 -0700	merge upstream/lab4-startercode: Merge made by the 'recursive' strategy.
+8dc3da8428316a28be58a2580fce90d73451aed5 3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 Ha Tran <hahntrn@stanford.edu> 1602784602 -0700	commit: somehow failing 7 tests instead of 6. while loop to fill window doesn't exit
+3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 b38415c4ade15c9ca778996c8eccc5708d394b13 Ha Tran <hahntrn@stanford.edu> 1602784791 -0700	checkout: moving from master to revert1
+b38415c4ade15c9ca778996c8eccc5708d394b13 6497de3ab7c34a85d64840b140d3e7255c9c719b Ha Tran <hahntrn@stanford.edu> 1602786348 -0700	checkout: moving from revert1 to revert2
+6497de3ab7c34a85d64840b140d3e7255c9c719b 89dac7b2bd699c1b68f8533704a98f21f17ded8b Ha Tran <hahntrn@stanford.edu> 1602795117 -0700	commit: pass the syn/fin stuff. n bytes in flight -> next seqno - last ackno. ERROR: sending segments when shouldn't. if exit early when length in sequence space == 0 -> infinite loops / timeouts.
+89dac7b2bd699c1b68f8533704a98f21f17ded8b 99a846a462ae08b0fcec0975d7a81aba00f0e910 Ha Tran <hahntrn@stanford.edu> 1602807710 -0700	commit: passing all but send_close test
+99a846a462ae08b0fcec0975d7a81aba00f0e910 acf5266799760073001e83d28290ff625348d0bd Ha Tran <hahntrn@stanford.edu> 1602809310 -0700	commit: passed all tests
+acf5266799760073001e83d28290ff625348d0bd 2669b8d4d810d1fefc137d27f8a14d9746ffee97 Ha Tran <hahntrn@stanford.edu> 1602819746 -0700	commit: reformatted some stuff, removed comments and redundant state variables
+2669b8d4d810d1fefc137d27f8a14d9746ffee97 2b9db156a4ea8b194c647fc58bd09385295e0dee Ha Tran <hahntrn@stanford.edu> 1603343906 -0700	commit: ?
+2b9db156a4ea8b194c647fc58bd09385295e0dee 3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 Ha Tran <hahntrn@stanford.edu> 1603343910 -0700	checkout: moving from revert2 to master
+3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 Ha Tran <hahntrn@stanford.edu> 1603823377 -0700	reset: moving to HEAD
+3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 58b374bdf26cd2d23dae3c93e538cf88a11ede31 Ha Tran <hahntrn@stanford.edu> 1603823387 -0700	checkout: moving from master to reset-changes
+58b374bdf26cd2d23dae3c93e538cf88a11ede31 3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 Ha Tran <hahntrn@stanford.edu> 1603823417 -0700	checkout: moving from reset-changes to master
+3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 edf8804cd53f0415bf0847ed678306c742abf1f8 Ha Tran <hahntrn@stanford.edu> 1603823425 -0700	checkout: moving from master to test0
+edf8804cd53f0415bf0847ed678306c742abf1f8 b38415c4ade15c9ca778996c8eccc5708d394b13 Ha Tran <hahntrn@stanford.edu> 1603823451 -0700	checkout: moving from test0 to revert1
+b38415c4ade15c9ca778996c8eccc5708d394b13 2b9db156a4ea8b194c647fc58bd09385295e0dee Ha Tran <hahntrn@stanford.edu> 1603823458 -0700	checkout: moving from revert1 to revert2
+2b9db156a4ea8b194c647fc58bd09385295e0dee 3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 Ha Tran <hahntrn@stanford.edu> 1603823529 -0700	checkout: moving from revert2 to master
+3f31f8ab2e2d1dd5212c0f9bc2f85c3685e9d4e5 6066d06d48810a8b8acc306d35bb43ef07aba587 Ha Tran <hahntrn@stanford.edu> 1603823847 -0700	commit (merge): tried merging with revert2, fail 2 tests
+6066d06d48810a8b8acc306d35bb43ef07aba587 2b9db156a4ea8b194c647fc58bd09385295e0dee Ha Tran <hahntrn@stanford.edu> 1603823855 -0700	checkout: moving from master to revert2
+2b9db156a4ea8b194c647fc58bd09385295e0dee 6066d06d48810a8b8acc306d35bb43ef07aba587 Ha Tran <hahntrn@stanford.edu> 1603823918 -0700	checkout: moving from revert2 to master
+6066d06d48810a8b8acc306d35bb43ef07aba587 2b9db156a4ea8b194c647fc58bd09385295e0dee Ha Tran <hahntrn@stanford.edu> 1603823977 -0700	checkout: moving from master to revert2
+2b9db156a4ea8b194c647fc58bd09385295e0dee 6066d06d48810a8b8acc306d35bb43ef07aba587 Ha Tran <hahntrn@stanford.edu> 1603824048 -0700	checkout: moving from revert2 to master
+6066d06d48810a8b8acc306d35bb43ef07aba587 0ea1a71d2b6f49e56d87aa7e1830571e60ae80cf Ha Tran <hahntrn@stanford.edu> 1603824319 -0700	commit: rm n bytes in flight state var
+0ea1a71d2b6f49e56d87aa7e1830571e60ae80cf 2b9db156a4ea8b194c647fc58bd09385295e0dee Ha Tran <hahntrn@stanford.edu> 1603824328 -0700	checkout: moving from master to revert2
+2b9db156a4ea8b194c647fc58bd09385295e0dee 2b9db156a4ea8b194c647fc58bd09385295e0dee Ha Tran <hahntrn@stanford.edu> 1603824336 -0700	checkout: moving from revert2 to lab4
+2b9db156a4ea8b194c647fc58bd09385295e0dee 8f5d4f8b0847e0a9efb947bf382134bd290e8b8d Ha Tran <hahntrn@stanford.edu> 1603824409 -0700	merge upstream/lab4-startercode: Merge made by the 'recursive' strategy.
+8f5d4f8b0847e0a9efb947bf382134bd290e8b8d 0ea1a71d2b6f49e56d87aa7e1830571e60ae80cf Ha Tran <hahntrn@stanford.edu> 1603824582 -0700	checkout: moving from lab4 to master
+0ea1a71d2b6f49e56d87aa7e1830571e60ae80cf 8f5d4f8b0847e0a9efb947bf382134bd290e8b8d Ha Tran <hahntrn@stanford.edu> 1603824707 -0700	checkout: moving from master to lab4
+8f5d4f8b0847e0a9efb947bf382134bd290e8b8d f97658b8571df414a62d1b6ae9209a89540422cd Ha Tran <hahntrn@stanford.edu> 1603828857 -0700	commit: added condition to ignore impossible acknos received
+f97658b8571df414a62d1b6ae9209a89540422cd eb3e9f8048173c0c7ced137563baf7d12613fbb8 Ha Tran <hahntrn@stanford.edu> 1603828878 -0700	commit (amend): added condition to ignore impossible acknos received. pass 1 test. still fail send_extra.
+eb3e9f8048173c0c7ced137563baf7d12613fbb8 b5307588408491f24946dd402ec564c2d7a3c7af Ha Tran <hahntrn@stanford.edu> 1603828943 -0700	commit (amend): added condition to ignore impossible acknos received. pass 1 test. still fail send_extra.
+b5307588408491f24946dd402ec564c2d7a3c7af 3686e44a876c5fe59cad05bbbabce1c146b6de1e Ha Tran <hahntrn@stanford.edu> 1603830405 -0700	commit: moved while loop into fill_window (which somehow got it to pass the RTO backoff test in send_extra?) changed map to list
+3686e44a876c5fe59cad05bbbabce1c146b6de1e 9caf146731f4f578cb8273ceca952b8187c7c0d4 Ha Tran <hahntrn@stanford.edu> 1603921628 -0700	commit: pass active close test
+9caf146731f4f578cb8273ceca952b8187c7c0d4 a5a53280c3299a329efeb4a0b6079abdc0269e48 Ha Tran <hahntrn@stanford.edu> 1603926202 -0700	commit: passes up to test #40, including passive & active close, ack rst
+a5a53280c3299a329efeb4a0b6079abdc0269e48 9cf52c574a76dc462d9ad20cc051a0fd8fcf9c48 Ha Tran <hahntrn@stanford.edu> 1603927005 -0700	commit: pass up to test #41: resolved t_listen
+9cf52c574a76dc462d9ad20cc051a0fd8fcf9c48 6842be5d83d6df57d9ab792c0cc4e1f864325400 Ha Tran <hahntrn@stanford.edu> 1603934037 -0700	commit: pass up to test #50: resolved t_winsize, t_retx (call fill_window in ack received, set rst flag on next outbounding segment instread of making a new empty segment with rst flag)
+6842be5d83d6df57d9ab792c0cc4e1f864325400 bff9070c9caf5f1ce41bff3a60fdca5a6859ba2f Ha Tran <hahntrn@stanford.edu> 1603951722 -0700	commit: pass all tests. REMOVE ALL COUT STATEMENTS. @..(&*{>~<:^0&√•¢π£ˆ
+bff9070c9caf5f1ce41bff3a60fdca5a6859ba2f bf0959c84a637bdbe273987abb03755c947ded81 Ha Tran <hahntrn@stanford.edu> 1603954714 -0700	commit: lab4: commented and removed couts
+bf0959c84a637bdbe273987abb03755c947ded81 99ee62fdd8d87ac33e421e81538284276d1b79c8 Ha Tran <hahntrn@stanford.edu> 1604006618 -0700	commit: lab3 writeup, submitted. added debug mode to cout statements
+99ee62fdd8d87ac33e421e81538284276d1b79c8 04cc6cfc62416742f9c1da4d0019317f947c7579 Ha Tran <hahntrn@stanford.edu> 1604008696 -0700	commit: lab4 writeup, submission. added debug mode for couts.
+04cc6cfc62416742f9c1da4d0019317f947c7579 fb2b6a75f21f0ae56efcbf3bbc401950b44077ac Ha Tran <hahntrn@stanford.edu> 1604008768 -0700	commit: updated writeup to include late days
+fb2b6a75f21f0ae56efcbf3bbc401950b44077ac 0ea1a71d2b6f49e56d87aa7e1830571e60ae80cf Ha Tran <hahntrn@stanford.edu> 1604018578 -0700	checkout: moving from lab4 to master
+0ea1a71d2b6f49e56d87aa7e1830571e60ae80cf 0ea1a71d2b6f49e56d87aa7e1830571e60ae80cf Ha Tran <hahntrn@stanford.edu> 1604018643 -0700	reset: moving to HEAD
+0ea1a71d2b6f49e56d87aa7e1830571e60ae80cf a852384942e91e337e7c9cb6ccdc3132f05cfd92 Ha Tran <hahntrn@stanford.edu> 1604018885 -0700	commit (merge): merged lab4
+a852384942e91e337e7c9cb6ccdc3132f05cfd92 eddf543313e516a9c9dc4f3ccc5c4fc1cf3b76ce Ha Tran <hahntrn@stanford.edu> 1604018901 -0700	commit (amend): merged lab4 into master
+eddf543313e516a9c9dc4f3ccc5c4fc1cf3b76ce 6a1b05df60055ad9445ecb24172b259d00c095d9 Ha Tran <hahntrn@stanford.edu> 1604019007 -0700	merge upstream/lab5-startercode: Merge made by the 'recursive' strategy.
+6a1b05df60055ad9445ecb24172b259d00c095d9 e7785b72f2a955f97d472835f6e876b0462bdd59 Ha Tran <hahntrn@stanford.edu> 1604545797 -0800	commit: prelim lab5 implementation. pass 1 test. not passing webget. 1 lab3 test failing. 2 lab4 tests failing
+e7785b72f2a955f97d472835f6e876b0462bdd59 fb2b6a75f21f0ae56efcbf3bbc401950b44077ac Ha Tran <hahntrn@stanford.edu> 1604545804 -0800	checkout: moving from master to lab4
+fb2b6a75f21f0ae56efcbf3bbc401950b44077ac fb2b6a75f21f0ae56efcbf3bbc401950b44077ac Ha Tran <hahntrn@stanford.edu> 1604545879 -0800	checkout: moving from lab4 to lab4-old
+fb2b6a75f21f0ae56efcbf3bbc401950b44077ac bff9070c9caf5f1ce41bff3a60fdca5a6859ba2f Ha Tran <hahntrn@stanford.edu> 1604545893 -0800	reset: moving to bff9070c9caf5f1ce41bff3a60fdca5a6859ba2f
+bff9070c9caf5f1ce41bff3a60fdca5a6859ba2f e7785b72f2a955f97d472835f6e876b0462bdd59 Ha Tran <hahntrn@stanford.edu> 1604546186 -0800	checkout: moving from lab4-old to master
+e7785b72f2a955f97d472835f6e876b0462bdd59 e7785b72f2a955f97d472835f6e876b0462bdd59 Ha Tran <hahntrn@stanford.edu> 1604546845 -0800	reset: moving to e7785b72f2a955f97d472835f6e876b0462bdd59
+e7785b72f2a955f97d472835f6e876b0462bdd59 ee0b30bb2ac8d4d8f4339cf49f439c5772dbca4f Ha Tran <hahntrn@stanford.edu> 1604558107 -0800	commit: passed all tests after turning off debug couts
+ee0b30bb2ac8d4d8f4339cf49f439c5772dbca4f 584e9f89b1b49c1d1c1ef6590fff51794f6ef437 Ha Tran <hahntrn@stanford.edu> 1604559092 -0800	commit: lab5 writeup, comments, style tweaks
+584e9f89b1b49c1d1c1ef6590fff51794f6ef437 4c63906c4b29976f1ebb167c4808b519a42cb6bb Ha Tran <hahntrn@stanford.edu> 1605049705 -0800	merge upstream/lab6-startercode: Merge made by the 'recursive' strategy.
+4c63906c4b29976f1ebb167c4808b519a42cb6bb 620b9fff8e0c8d713b998ce04e3fc78b57423902 Ha Tran <hahntrn@stanford.edu> 1605057730 -0800	commit: started lab5: bit mask, routing table, etc. TODO: send datagram, check bit mask edge cases (all 1/0's)

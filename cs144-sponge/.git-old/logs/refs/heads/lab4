@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 2b9db156a4ea8b194c647fc58bd09385295e0dee Ha Tran <hahntrn@stanford.edu> 1603824336 -0700	branch: Created from HEAD
+2b9db156a4ea8b194c647fc58bd09385295e0dee 8f5d4f8b0847e0a9efb947bf382134bd290e8b8d Ha Tran <hahntrn@stanford.edu> 1603824409 -0700	merge upstream/lab4-startercode: Merge made by the 'recursive' strategy.
+8f5d4f8b0847e0a9efb947bf382134bd290e8b8d f97658b8571df414a62d1b6ae9209a89540422cd Ha Tran <hahntrn@stanford.edu> 1603828857 -0700	commit: added condition to ignore impossible acknos received
+f97658b8571df414a62d1b6ae9209a89540422cd eb3e9f8048173c0c7ced137563baf7d12613fbb8 Ha Tran <hahntrn@stanford.edu> 1603828878 -0700	commit (amend): added condition to ignore impossible acknos received. pass 1 test. still fail send_extra.
+eb3e9f8048173c0c7ced137563baf7d12613fbb8 b5307588408491f24946dd402ec564c2d7a3c7af Ha Tran <hahntrn@stanford.edu> 1603828943 -0700	commit (amend): added condition to ignore impossible acknos received. pass 1 test. still fail send_extra.
+b5307588408491f24946dd402ec564c2d7a3c7af 3686e44a876c5fe59cad05bbbabce1c146b6de1e Ha Tran <hahntrn@stanford.edu> 1603830405 -0700	commit: moved while loop into fill_window (which somehow got it to pass the RTO backoff test in send_extra?) changed map to list
+3686e44a876c5fe59cad05bbbabce1c146b6de1e 9caf146731f4f578cb8273ceca952b8187c7c0d4 Ha Tran <hahntrn@stanford.edu> 1603921628 -0700	commit: pass active close test
+9caf146731f4f578cb8273ceca952b8187c7c0d4 a5a53280c3299a329efeb4a0b6079abdc0269e48 Ha Tran <hahntrn@stanford.edu> 1603926202 -0700	commit: passes up to test #40, including passive & active close, ack rst
+a5a53280c3299a329efeb4a0b6079abdc0269e48 9cf52c574a76dc462d9ad20cc051a0fd8fcf9c48 Ha Tran <hahntrn@stanford.edu> 1603927005 -0700	commit: pass up to test #41: resolved t_listen
+9cf52c574a76dc462d9ad20cc051a0fd8fcf9c48 6842be5d83d6df57d9ab792c0cc4e1f864325400 Ha Tran <hahntrn@stanford.edu> 1603934037 -0700	commit: pass up to test #50: resolved t_winsize, t_retx (call fill_window in ack received, set rst flag on next outbounding segment instread of making a new empty segment with rst flag)
+6842be5d83d6df57d9ab792c0cc4e1f864325400 bff9070c9caf5f1ce41bff3a60fdca5a6859ba2f Ha Tran <hahntrn@stanford.edu> 1603951722 -0700	commit: pass all tests. REMOVE ALL COUT STATEMENTS. @..(&*{>~<:^0&√•¢π£ˆ
+bff9070c9caf5f1ce41bff3a60fdca5a6859ba2f bf0959c84a637bdbe273987abb03755c947ded81 Ha Tran <hahntrn@stanford.edu> 1603954714 -0700	commit: lab4: commented and removed couts
+bf0959c84a637bdbe273987abb03755c947ded81 99ee62fdd8d87ac33e421e81538284276d1b79c8 Ha Tran <hahntrn@stanford.edu> 1604006618 -0700	commit: lab3 writeup, submitted. added debug mode to cout statements
+99ee62fdd8d87ac33e421e81538284276d1b79c8 04cc6cfc62416742f9c1da4d0019317f947c7579 Ha Tran <hahntrn@stanford.edu> 1604008696 -0700	commit: lab4 writeup, submission. added debug mode for couts.
+04cc6cfc62416742f9c1da4d0019317f947c7579 fb2b6a75f21f0ae56efcbf3bbc401950b44077ac Ha Tran <hahntrn@stanford.edu> 1604008768 -0700	commit: updated writeup to include late days
