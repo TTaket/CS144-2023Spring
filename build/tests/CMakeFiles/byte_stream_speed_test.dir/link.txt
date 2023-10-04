@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o -o byte_stream_speed_test  ../src/libminnow_optimized.a ../util/libutil_optimized.a 

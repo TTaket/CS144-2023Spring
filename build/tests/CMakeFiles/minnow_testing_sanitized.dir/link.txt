@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminnow_testing_sanitized.a CMakeFiles/minnow_testing_sanitized.dir/common.cc.o
+/usr/bin/ranlib libminnow_testing_sanitized.a

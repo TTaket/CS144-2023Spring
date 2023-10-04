@@ -1,0 +1,206 @@
+[
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/util_debug.dir/address.cc.o -c /home/ljy/LJY/code-dir/CS144/util/address.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/address.cc",
+  "output": "util/CMakeFiles/util_debug.dir/address.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/util_debug.dir/file_descriptor.cc.o -c /home/ljy/LJY/code-dir/CS144/util/file_descriptor.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/file_descriptor.cc",
+  "output": "util/CMakeFiles/util_debug.dir/file_descriptor.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/util_debug.dir/random.cc.o -c /home/ljy/LJY/code-dir/CS144/util/random.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/random.cc",
+  "output": "util/CMakeFiles/util_debug.dir/random.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/util_debug.dir/socket.cc.o -c /home/ljy/LJY/code-dir/CS144/util/socket.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/socket.cc",
+  "output": "util/CMakeFiles/util_debug.dir/socket.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/address.cc.o -c /home/ljy/LJY/code-dir/CS144/util/address.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/address.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/address.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/file_descriptor.cc.o -c /home/ljy/LJY/code-dir/CS144/util/file_descriptor.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/file_descriptor.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/file_descriptor.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/random.cc.o -c /home/ljy/LJY/code-dir/CS144/util/random.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/random.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/random.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/util_sanitized.dir/socket.cc.o -c /home/ljy/LJY/code-dir/CS144/util/socket.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/socket.cc",
+  "output": "util/CMakeFiles/util_sanitized.dir/socket.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -O2 -o CMakeFiles/util_optimized.dir/address.cc.o -c /home/ljy/LJY/code-dir/CS144/util/address.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/address.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/address.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -O2 -o CMakeFiles/util_optimized.dir/file_descriptor.cc.o -c /home/ljy/LJY/code-dir/CS144/util/file_descriptor.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/file_descriptor.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/file_descriptor.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -O2 -o CMakeFiles/util_optimized.dir/random.cc.o -c /home/ljy/LJY/code-dir/CS144/util/random.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/random.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/random.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/util",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -O2 -o CMakeFiles/util_optimized.dir/socket.cc.o -c /home/ljy/LJY/code-dir/CS144/util/socket.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/util/socket.cc",
+  "output": "util/CMakeFiles/util_optimized.dir/socket.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/src",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/minnow_debug.dir/byte_stream.cc.o -c /home/ljy/LJY/code-dir/CS144/src/byte_stream.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/src/byte_stream.cc",
+  "output": "src/CMakeFiles/minnow_debug.dir/byte_stream.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/src",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/minnow_debug.dir/byte_stream_helpers.cc.o -c /home/ljy/LJY/code-dir/CS144/src/byte_stream_helpers.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/src/byte_stream_helpers.cc",
+  "output": "src/CMakeFiles/minnow_debug.dir/byte_stream_helpers.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/src",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o -c /home/ljy/LJY/code-dir/CS144/src/byte_stream.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/src/byte_stream.cc",
+  "output": "src/CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/src",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o -c /home/ljy/LJY/code-dir/CS144/src/byte_stream_helpers.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/src/byte_stream_helpers.cc",
+  "output": "src/CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/src",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -O2 -o CMakeFiles/minnow_optimized.dir/byte_stream.cc.o -c /home/ljy/LJY/code-dir/CS144/src/byte_stream.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/src/byte_stream.cc",
+  "output": "src/CMakeFiles/minnow_optimized.dir/byte_stream.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/src",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -O2 -o CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o -c /home/ljy/LJY/code-dir/CS144/src/byte_stream_helpers.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/src/byte_stream_helpers.cc",
+  "output": "src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/minnow_testing_debug.dir/common.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/common.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/common.cc",
+  "output": "tests/CMakeFiles/minnow_testing_debug.dir/common.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/minnow_testing_sanitized.dir/common.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/common.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/common.cc",
+  "output": "tests/CMakeFiles/minnow_testing_sanitized.dir/common.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_basics_sanitized.dir/byte_stream_basics.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_basics.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_basics.cc",
+  "output": "tests/CMakeFiles/byte_stream_basics_sanitized.dir/byte_stream_basics.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/byte_stream_basics.dir/byte_stream_basics.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_basics.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_basics.cc",
+  "output": "tests/CMakeFiles/byte_stream_basics.dir/byte_stream_basics.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_capacity_sanitized.dir/byte_stream_capacity.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_capacity.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_capacity.cc",
+  "output": "tests/CMakeFiles/byte_stream_capacity_sanitized.dir/byte_stream_capacity.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_capacity.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_capacity.cc",
+  "output": "tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_one_write_sanitized.dir/byte_stream_one_write.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_one_write.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_one_write.cc",
+  "output": "tests/CMakeFiles/byte_stream_one_write_sanitized.dir/byte_stream_one_write.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_one_write.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_one_write.cc",
+  "output": "tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_two_writes_sanitized.dir/byte_stream_two_writes.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_two_writes.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_two_writes.cc",
+  "output": "tests/CMakeFiles/byte_stream_two_writes_sanitized.dir/byte_stream_two_writes.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_two_writes.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_two_writes.cc",
+  "output": "tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_many_writes.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_many_writes.cc",
+  "output": "tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_many_writes.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_many_writes.cc",
+  "output": "tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -fno-sanitize-recover=all -fsanitize=undefined -fsanitize=address -o CMakeFiles/byte_stream_stress_test_sanitized.dir/byte_stream_stress_test.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_stress_test.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_stress_test.cc",
+  "output": "tests/CMakeFiles/byte_stream_stress_test_sanitized.dir/byte_stream_stress_test.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_stress_test.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_stress_test.cc",
+  "output": "tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/tests",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -O2 -o CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o -c /home/ljy/LJY/code-dir/CS144/tests/byte_stream_speed_test.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/tests/byte_stream_speed_test.cc",
+  "output": "tests/CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o"
+},
+{
+  "directory": "/home/ljy/LJY/code-dir/CS144/build/apps",
+  "command": "/usr/bin/c++  -I/home/ljy/LJY/code-dir/CS144/util -I/home/ljy/LJY/code-dir/CS144/src  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g -std=gnu++20 -o CMakeFiles/webget.dir/webget.cc.o -c /home/ljy/LJY/code-dir/CS144/apps/webget.cc",
+  "file": "/home/ljy/LJY/code-dir/CS144/apps/webget.cc",
+  "output": "apps/CMakeFiles/webget.dir/webget.cc.o"
+}
+]
