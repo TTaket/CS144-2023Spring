@@ -1,5 +1,6 @@
 #pragma once
 
+#include <cstdint>
 #include <queue>
 #include <stdexcept>
 #include <string>
@@ -11,7 +12,15 @@ class Writer;
 class ByteStream
 {
 protected:
-  uint64_t capacity_;
+  uint64_t capacity_;        // 总共开辟的量
+  uint64_t size_;            // 已经使用的量
+  std::vector<char> Buffer_; // 内部存储结构 开二倍空间 冗余一倍达到string_view优化
+
+  bool isclose_;
+  bool iserror_;
+
+  uint64_t write_count_;
+  uint64_t read_count_;
   // Please add any additional state to the ByteStream here, and not to the Writer and Reader interfaces.
 
 public:
