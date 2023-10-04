@@ -1,10 +1,5 @@
-*.a
-*.o
-/.vscode
 /build
-CMakeCache.txt
-CMakeFiles
-Makefile
-cmake_install.cmake
-CTestTestfile.cmake
-compile_commands.json
+/.ccls-cache
+/.vscode
+*.swp
+/.cache
