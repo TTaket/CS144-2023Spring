@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminnow_optimized.a CMakeFiles/minnow_optimized.dir/byte_stream.cc.o CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o
+/usr/bin/ranlib libminnow_optimized.a

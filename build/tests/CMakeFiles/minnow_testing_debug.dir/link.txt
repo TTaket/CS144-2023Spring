@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminnow_testing_debug.a CMakeFiles/minnow_testing_debug.dir/common.cc.o
+/usr/bin/ranlib libminnow_testing_debug.a

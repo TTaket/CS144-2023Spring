@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -o byte_stream_two_writes  libminnow_testing_debug.a ../src/libminnow_debug.a ../util/libutil_debug.a 

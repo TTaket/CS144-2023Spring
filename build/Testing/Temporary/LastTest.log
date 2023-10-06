@@ -1,0 +1,229 @@
+Start testing: Oct 04 20:12 CST
+----------------------------------------------------------
+1/10 Testing: compile with bug-checkers
+1/10 Test: compile with bug-checkers
+Command: "/usr/bin/cmake" "--build" "/home/ljy/LJY/code-dir/CS144/build" "-t" "functionality_testing" "webget"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"compile with bug-checkers" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+[ 11%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/random.cc.o[0m
+[ 11%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/address.cc.o[0m
+[ 11%] [32mBuilding CXX object tests/CMakeFiles/minnow_testing_sanitized.dir/common.cc.o[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/minnow_sanitized.dir/byte_stream.cc.o[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/minnow_sanitized.dir/byte_stream_helpers.cc.o[0m
+[ 13%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/file_descriptor.cc.o[0m
+[ 15%] [32mBuilding CXX object util/CMakeFiles/util_sanitized.dir/socket.cc.o[0m
+[ 20%] Built target minnow_testing_debug
+[ 27%] Built target minnow_debug
+[ 38%] Built target util_debug
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_basics.dir/byte_stream_basics.cc.o[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_capacity.dir/byte_stream_capacity.cc.o[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_many_writes.dir/byte_stream_many_writes.cc.o[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_stress_test.dir/byte_stream_stress_test.cc.o[0m
+[ 52%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o[0m
+[ 54%] [32m[1mLinking CXX static library libminnow_sanitized.a[0m
+[ 54%] Built target minnow_sanitized
+[ 56%] [32m[1mLinking CXX executable byte_stream_basics[0m
+[ 56%] Built target byte_stream_basics
+[ 59%] [32m[1mLinking CXX executable byte_stream_capacity[0m
+[ 61%] [32m[1mLinking CXX static library libminnow_testing_sanitized.a[0m
+[ 61%] Built target byte_stream_capacity
+[ 61%] Built target minnow_testing_sanitized
+[ 63%] [32m[1mLinking CXX executable byte_stream_two_writes[0m
+[ 65%] [32m[1mLinking CXX executable byte_stream_one_write[0m
+[ 68%] [32m[1mLinking CXX static library libutil_sanitized.a[0m
+[ 68%] Built target byte_stream_two_writes
+[ 68%] Built target byte_stream_one_write
+[ 68%] Built target util_sanitized
+[ 77%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_capacity_sanitized.dir/byte_stream_capacity.cc.o[0m
+[ 77%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_basics_sanitized.dir/byte_stream_basics.cc.o[0m
+[ 77%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_one_write_sanitized.dir/byte_stream_one_write.cc.o[0m
+[ 77%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_many_writes_sanitized.dir/byte_stream_many_writes.cc.o[0m
+[ 79%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_two_writes_sanitized.dir/byte_stream_two_writes.cc.o[0m
+[ 81%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_stress_test_sanitized.dir/byte_stream_stress_test.cc.o[0m
+[ 84%] [32m[1mLinking CXX executable byte_stream_stress_test[0m
+[ 86%] [32m[1mLinking CXX executable byte_stream_many_writes[0m
+[ 86%] Built target byte_stream_stress_test
+[ 86%] Built target byte_stream_many_writes
+[ 88%] [32m[1mLinking CXX executable byte_stream_basics_sanitized[0m
+[ 88%] Built target byte_stream_basics_sanitized
+[ 90%] [32m[1mLinking CXX executable byte_stream_many_writes_sanitized[0m
+[ 93%] [32m[1mLinking CXX executable byte_stream_two_writes_sanitized[0m
+[ 95%] [32m[1mLinking CXX executable byte_stream_capacity_sanitized[0m
+[ 97%] [32m[1mLinking CXX executable byte_stream_one_write_sanitized[0m
+[ 97%] Built target byte_stream_many_writes_sanitized
+[ 97%] Built target byte_stream_capacity_sanitized
+[ 97%] Built target byte_stream_two_writes_sanitized
+[100%] [32m[1mLinking CXX executable byte_stream_stress_test_sanitized[0m
+[100%] Built target byte_stream_one_write_sanitized
+[100%] Built target byte_stream_stress_test_sanitized
+[100%] Built target functionality_testing
+[ 30%] Built target minnow_debug
+[ 80%] Built target util_debug
+[100%] Built target webget
+<end of output>
+Test time =   2.99 sec
+----------------------------------------------------------
+Test Passed.
+"compile with bug-checkers" end time: Oct 04 20:12 CST
+"compile with bug-checkers" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/10 Testing: t_webget
+2/10 Test: t_webget
+Command: "/home/ljy/LJY/code-dir/CS144/tests/webget_t.sh" "/home/ljy/LJY/code-dir/CS144/build"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"t_webget" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+Function called: get_URL(cs144.keithw.org, /nph-hasher/xyzzy)
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
+<end of output>
+Test time =   1.31 sec
+----------------------------------------------------------
+Test Passed.
+"t_webget" end time: Oct 04 20:12 CST
+"t_webget" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/10 Testing: byte_stream_basics
+3/10 Test: byte_stream_basics
+Command: "/home/ljy/LJY/code-dir/CS144/build/tests/byte_stream_basics_sanitized"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"byte_stream_basics" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_basics" end time: Oct 04 20:12 CST
+"byte_stream_basics" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: byte_stream_capacity
+4/10 Test: byte_stream_capacity
+Command: "/home/ljy/LJY/code-dir/CS144/build/tests/byte_stream_capacity_sanitized"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"byte_stream_capacity" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_capacity" end time: Oct 04 20:12 CST
+"byte_stream_capacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: byte_stream_one_write
+5/10 Test: byte_stream_one_write
+Command: "/home/ljy/LJY/code-dir/CS144/build/tests/byte_stream_one_write_sanitized"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"byte_stream_one_write" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_one_write" end time: Oct 04 20:12 CST
+"byte_stream_one_write" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: byte_stream_two_writes
+6/10 Test: byte_stream_two_writes
+Command: "/home/ljy/LJY/code-dir/CS144/build/tests/byte_stream_two_writes_sanitized"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"byte_stream_two_writes" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_two_writes" end time: Oct 04 20:12 CST
+"byte_stream_two_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: byte_stream_many_writes
+7/10 Test: byte_stream_many_writes
+Command: "/home/ljy/LJY/code-dir/CS144/build/tests/byte_stream_many_writes_sanitized"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"byte_stream_many_writes" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_many_writes" end time: Oct 04 20:12 CST
+"byte_stream_many_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: byte_stream_stress_test
+8/10 Test: byte_stream_stress_test
+Command: "/home/ljy/LJY/code-dir/CS144/build/tests/byte_stream_stress_test_sanitized"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"byte_stream_stress_test" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_stress_test" end time: Oct 04 20:12 CST
+"byte_stream_stress_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: compile with optimization
+9/10 Test: compile with optimization
+Command: "/usr/bin/cmake" "--build" "/home/ljy/LJY/code-dir/CS144/build" "-t" "speed_testing"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"compile with optimization" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+[ 50%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/byte_stream.cc.o[0m
+[ 50%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/random.cc.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/minnow_optimized.dir/byte_stream_helpers.cc.o[0m
+[ 50%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/address.cc.o[0m
+[ 50%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/file_descriptor.cc.o[0m
+[ 60%] [32mBuilding CXX object util/CMakeFiles/util_optimized.dir/socket.cc.o[0m
+[ 70%] [32m[1mLinking CXX static library libminnow_optimized.a[0m
+[ 70%] Built target minnow_optimized
+[ 80%] [32m[1mLinking CXX static library libutil_optimized.a[0m
+[ 80%] Built target util_optimized
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/byte_stream_speed_test.dir/byte_stream_speed_test.cc.o[0m
+[100%] [32m[1mLinking CXX executable byte_stream_speed_test[0m
+[100%] Built target byte_stream_speed_test
+[100%] Built target speed_testing
+<end of output>
+Test time =   2.38 sec
+----------------------------------------------------------
+Test Passed.
+"compile with optimization" end time: Oct 04 20:12 CST
+"compile with optimization" time elapsed: 00:00:02
+----------------------------------------------------------
+
+10/10 Testing: byte_stream_speed_test
+10/10 Test: byte_stream_speed_test
+Command: "/home/ljy/LJY/code-dir/CS144/build/tests/byte_stream_speed_test"
+Directory: /home/ljy/LJY/code-dir/CS144/build
+"byte_stream_speed_test" start time: Oct 04 20:12 CST
+Output:
+----------------------------------------------------------
+ByteStream with capacity=32768, write_size=1500, read_size=128 reached 1.61 Gbit/s.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"byte_stream_speed_test" end time: Oct 04 20:12 CST
+"byte_stream_speed_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 04 20:12 CST
