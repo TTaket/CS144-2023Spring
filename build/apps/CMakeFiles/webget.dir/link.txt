@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wpedantic -Wextra -Weffc++ -Werror -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Wno-unqualified-std-cast-call -g CMakeFiles/webget.dir/webget.cc.o -o webget  ../src/libminnow_debug.a ../util/libutil_debug.a 

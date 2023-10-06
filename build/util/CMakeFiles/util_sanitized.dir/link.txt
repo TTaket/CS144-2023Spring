@@ -1,2 +1,0 @@
-/usr/bin/ar qc libutil_sanitized.a CMakeFiles/util_sanitized.dir/address.cc.o CMakeFiles/util_sanitized.dir/file_descriptor.cc.o CMakeFiles/util_sanitized.dir/random.cc.o CMakeFiles/util_sanitized.dir/socket.cc.o
-/usr/bin/ranlib libutil_sanitized.a

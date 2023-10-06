@@ -1,2 +1,0 @@
-/usr/bin/ar qc libutil_optimized.a CMakeFiles/util_optimized.dir/address.cc.o CMakeFiles/util_optimized.dir/file_descriptor.cc.o CMakeFiles/util_optimized.dir/random.cc.o CMakeFiles/util_optimized.dir/socket.cc.o
-/usr/bin/ranlib libutil_optimized.a
