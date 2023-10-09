@@ -6,7 +6,13 @@
 
 class TCPReceiver
 {
+protected:
+  Wrap32 ISN;
+  bool SYN_flag;
+  bool FIN_flag;
+  uint64_t checkpoint;
 public:
+  TCPReceiver();
   /*
    * The TCPReceiver receives TCPSenderMessages, inserting their payload into the Reassembler
    * at the correct stream index.

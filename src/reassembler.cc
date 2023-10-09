@@ -136,3 +136,11 @@ uint64_t Reassembler::bytes_pending() const
   // Your code here.
   return {byte_pend_};
 }
+
+
+void Reassembler::insert_SYN(){
+  byte_ready_++;
+};
+void Reassembler::insert_FIN(){
+  byte_ready_++;
+};

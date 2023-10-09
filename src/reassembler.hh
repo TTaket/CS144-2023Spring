@@ -55,19 +55,23 @@ protected:
   uint64_t byte_ready_;
   //  uint64_t 记录排队的字节有多少
   uint64_t byte_pend_;
-public:
-  // merge
-  // 对两个block进行合并
-  void merge_block (Block_Node &BN1  ,Block_Node &BN2  );
 
-  // insert  
-  // 插入一个block 
-  void insert( uint64_t first_index, std::string data, bool is_last_substring, Writer& output );
-
+protected:
   // update_output
   // 更新可以输出的数量到output 
   void update_output(uint64_t first_index ,Writer&output) ;
 
+
+  // merge
+  // 对两个block进行合并
+  void merge_block (Block_Node &BN1  ,Block_Node &BN2  );
+
+public:
+  // insert  
+  // 插入一个block 
+  void insert( uint64_t first_index, std::string data, bool is_last_substring, Writer& output );
+  void insert_SYN();
+  void insert_FIN();
 
   // How many bytes are stored in the Reassembler itself?
   // 重组器本身存储了多少字节 - 应该是返回有序的长度个数
