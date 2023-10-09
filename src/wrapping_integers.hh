@@ -11,11 +11,13 @@
 class Wrap32
 {
 protected:
-  uint32_t raw_value_ {};
+  uint32_t raw_value_ {};//序列号
 
 public:
   explicit Wrap32( uint32_t raw_value ) : raw_value_( raw_value ) {}
 
+  //获取原始值
+  uint32_t getrawvalue();
   /* Construct a Wrap32 given an absolute sequence number n and the zero point. */
   static Wrap32 wrap( uint64_t n, Wrap32 zero_point );
 
