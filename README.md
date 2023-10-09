@@ -35,10 +35,20 @@ solution 分支放置最新更新
 
 中文参考文档：http://doraemonzzz.com/2022/01/30/2022-1-30-CS144-Lab1%E7%BF%BB%E8%AF%91/
 
+#### Lab2
+
+完成时间：2023/10/9 - 18.40
+
+完成抽象：
+
+    我们得到了 tcp_receiver 到现在位置 我们已经处理好了 tcp 在接受信息的时候传输层 接收端 应该做的事情（比较粗略 没有包含各种意外情况的处理 只有简单的应答和窗口数据）
+
+中文参考文档：http://doraemonzzz.com/2021/12/27/2021-12-27-CS144-Lab2%E7%BF%BB%E8%AF%91
+
 ---
 
 原网站：https://cs144.github.io/
 
-佬的克隆仓库：https://gitee.com/kangyupl
+Keith Winstein 大佬的仓库（startcode)：https://gitee.com/kangyupl
 
-中文翻译佬的网页：http://doraemonzzz.com/
+Doraemonzzz 大佬的网站（中文翻译）：http://doraemonzzz.com/

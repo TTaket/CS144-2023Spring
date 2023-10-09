@@ -28,46 +28,49 @@ public:
    * The Reassembler should close the stream after writing the last byte.
    */
   Reassembler();
-protected:
-  //设计存储结构 ： 
 
-  //  节点信息结构体 
-  class Block_Node{
+protected:
+  // 设计存储结构 ：
+
+  //  节点信息结构体
+  class Block_Node
+  {
   public:
     uint64_t begin_index = 0;
     uint64_t end_index = 0;
     uint64_t length = 0;
     bool islast = false;
     std::string data = "";
-    bool operator < (const Block_Node & that) const{  
-      return begin_index < that.begin_index;
+    bool operator<( const Block_Node& that ) const { return begin_index < that.begin_index; };
+    bool operator==( const Block_Node& that ) const
+    {
+      return ( ( begin_index == that.begin_index ) && ( end_index == that.end_index )
+               && ( islast == that.islast ) );
     };
-    bool operator == (const Block_Node & that) const{  
-      return ((begin_index == that.begin_index) && (end_index == that.end_index) && (islast == that.islast))  ;
-    };
-
   };
 
-
-  std::map<uint64_t, Block_Node> Blocks_ ;
+  std::map<uint64_t, Block_Node> Blocks_;
 
   //  uint64_t 记录当前需要的开始索引是多少
   uint64_t byte_ready_;
   //  uint64_t 记录排队的字节有多少
   uint64_t byte_pend_;
-public:
+
+protected:
+  // update_output
+  // 更新可以输出的数量到output
+  void update_output( uint64_t first_index, Writer& output );
+
   // merge
   // 对两个block进行合并
-  void merge_block (Block_Node &BN1  ,Block_Node &BN2  );
+  void merge_block( Block_Node& BN1, Block_Node& BN2 );
 
-  // insert  
-  // 插入一个block 
+public:
+  // insert
+  // 插入一个block
   void insert( uint64_t first_index, std::string data, bool is_last_substring, Writer& output );
-
-  // update_output
-  // 更新可以输出的数量到output 
-  void update_output(uint64_t first_index ,Writer&output) ;
-
+  void insert_SYN();
+  void insert_FIN();
 
   // How many bytes are stored in the Reassembler itself?
   // 重组器本身存储了多少字节 - 应该是返回有序的长度个数
