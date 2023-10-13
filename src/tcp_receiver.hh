@@ -11,7 +11,6 @@ protected:
   bool SYN_flag;
   bool FIN_flag;
   uint64_t checkpoint;
-
 public:
   TCPReceiver();
   /*

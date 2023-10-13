@@ -45,6 +45,16 @@ solution 分支放置最新更新
 
 中文参考文档：http://doraemonzzz.com/2021/12/27/2021-12-27-CS144-Lab2%E7%BF%BB%E8%AF%91
 
+#### Lab3
+
+完成时间：2023/10/13 - 15.00
+
+完成抽象：
+
+    我们得到了 tcp_sender 到目前 我们已经处理好了双端的发送接收功能 并且定义了send的一系列状态
+
+中文参考文档：http://doraemonzzz.com/2022/01/08/2022-1-8-CS144-Lab3%E7%BF%BB%E8%AF%91/
+
 ---
 
 原网站：https://cs144.github.io/
