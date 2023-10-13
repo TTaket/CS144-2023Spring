@@ -83,4 +83,8 @@ tick 的行为 : 重传 ， 在只要 tick 超时 就证明一定有包要被重
 
     windowsize和Able_send : Able是能够发送的大小 当windowsize为0的时候 表示对方不接受信息 此时截取一字节的信息 在不增加RTO的情况下不断尝试访问 叫零窗口探测 其余时间Ablesend 等于 windowsize - 等待的长度
 
+AC 截图：
+
+![png](../png/png3-1.png)
+
 完成时间： 2023/10/13 - 15:00
